@@ -1,0 +1,20 @@
+.g-signin2 {
+    position: relative;
+    top: 129px;
+    left: 100px;
+}
+#body {
+    background-color: rgb(32, 32, 32);
+    position: relative;
+}
+.title2 {
+    font-size: 33px;
+    color: white;
+}
+a {
+    font-size: larger;
+}
+.data {
+    display: none;
+    visibility: hidden;
+}

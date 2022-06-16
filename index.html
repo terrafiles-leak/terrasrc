@@ -1,0 +1,546 @@
+<!doctype html>
+
+
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Kyle">
+
+    <title>Terrafiles.net Home</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/landing.css">
+    <link href="https://terrafiles.net/css/style.css" rel="stylesheet">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+</style>
+    <style>
+    canvas {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+body {
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+	visibility: hidden;
+}
+    .myButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+@-webkit-keyframes bounce-in {
+0%{ opacity: 0; -webkit-transform: scale(.3); transform: scale(.3); }
+50%{ opacity: 1; -webkit-transform: scale(1.0); transform: scale(1.0); }
+70%{ -webkit-transform: scale(0.9); transform: scale(0.9); }
+100%{ -webkit-transform: scale(1); transform: scale(1); }
+}
+
+@keyframes bounce-in {
+0%{ opacity: 0; transform: scale(.3); }
+50%{ opacity: 1; transform: scale(1.0); }
+70%{ transform: scale(0.9); }
+100%{ transform: scale(1); }
+}
+.myButton:hover {
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+body {
+  padding-top: 5rem;
+  background-color: rgb(28, 28, 28);
+}
+.top {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  color: white;
+}
+.copyright {
+  color: white;   
+}
+    </style>
+    <style>
+        #events {
+          border: 1px solid black;  
+          background-color: #2a2b2d;
+          color: white;
+        }
+        .text {
+            color: red;
+            font-size: 27px;
+        }
+
+        .upcoming-games {
+            border: 1px solid black;  
+          background-color: #2a2b2d;
+          color: white;
+        }
+        .popular-games {
+            border: 1px solid black;  
+          background-color: #2a2b2d;
+          color: white;
+        }
+        .update-info {
+            border: 1px solid black;  
+          background-color: #2a2b2d;
+          color: white;
+        }
+        .subtitle {
+            font-size: 26.7px;
+        }
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Quicksand:wght@300&family=Readex+Pro:wght@200&family=Roboto:wght@500&display=swap');
+@keyframes amogus {
+    0% {
+      opacity: 0;
+      transform: rotate(-540deg) scale(0);
+      transform-origin: 100% 50%;
+    }
+  
+    100% {
+      opacity: 1;
+      transform: rotate(0) scale(1);
+      transform-origin: 100% 50%;
+    }
+  }
+#text1 {
+ color: rgb(0, 0, 0);
+ max-zoom: 20;
+ min-zoom: 20;
+ font-variant-ligatures: contextual;
+ position: relative;
+}
+#IMG_BACKGROUND {
+  background: url(img/bigstock-server-racks-in-server-room-da-150954236.webp);
+  background-clip: content-box;
+  position: relative;
+  border: 2pt solid blue;
+  overflow: hidden;
+  background-repeat: repeat;
+  background-size: 50cm;
+}
+#IMG_BACKGROUND2 {
+  background: url(img/CYBER-2018.webp);
+  background-clip: content-box;
+  position: relative;
+  border: 2pt solid blue;
+  overflow: hidden;
+  background-repeat: repeat;
+  background-size: 50cm;
+}
+#IMG_BACKGROUND4 {
+  background: url(img/th.webp);
+  background-clip: content-box;
+  position: relative;
+  border: 2pt solid blue;
+  overflow: hidden;
+  background-repeat: repeat;
+  background-size: 50cm;
+}
+#text4 p {
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 50;
+  font-size: 1.1999em;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  left: 200px;
+  color: rgb(0, 0, 0);
+  animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+  font-optical-sizing: 121;
+}
+#text4 h1 {
+  font-family: 'Poppins', sans-serif;
+    font-size: 28pt;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    left: 200px;
+    color: #000000;
+    text-rendering: geometricPrecision;
+    animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+}
+#text1 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28pt;
+    overflow: hidden;
+    position: relative;
+    top: 25px;
+    left: 200px;
+    text-rendering: geometricPrecision;
+    animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+}
+#text1 p {
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 50;
+  font-size: 1.1999em;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  left: 200px;
+  color: rgb(255, 255, 255);
+  animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+  font-optical-sizing: 121;
+}
+#text2 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28pt;
+  position: relative;
+  color: rgb(255, 255, 255);
+  top: 25px;
+  left: 650px;
+  text-rendering: geometricPrecision;
+  animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+}
+#text2 p {
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 50;
+  font-size: 1.1999em;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  left: 650px;
+  color: rgb(255, 255, 255);
+  animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+  font-optical-sizing: 121;
+}
+#IMG_BACKGROUND3 {
+  background: url(https://cdn-images-1.medium.com/max/800/1*Ka8eOXXmgQBb2KZG5tJQ4Q.png);
+  background-clip: content-box;
+  position: relative;
+  border: 2pt solid blue;
+  overflow: hidden;
+  background-repeat: repeat;
+  background-size: 50cm;
+}
+#text3 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28pt;
+  position: relative;
+  color: rgb(0, 0, 0);
+  top: 25px;
+  left: 353px;
+  background: #000000;
+background: -webkit-linear-gradient(to right, #000000 0%, #FFFFFF 50%);
+background: -moz-linear-gradient(to right, #000000 0%, #FFFFFF 50%);
+background: linear-gradient(to right, #000000 0%, #FFFFFF 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  text-rendering: geometricPrecision;
+  animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+  text-transform: capitalize;
+}
+#text3 p {
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 50;
+  font-size: 1.1999em;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  background: #000000;
+background: -webkit-linear-gradient(to right, #000000 0%, #FFFFFF 50%);
+background: -moz-linear-gradient(to right, #000000 0%, #FFFFFF 50%);
+background: linear-gradient(to right, #000000 0%, #FFFFFF 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  left: 353px;
+  color: rgb(0, 0, 0);
+-webkit-text-fill-color: transparent;
+  animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+  font-optical-sizing: 121;
+}
+#AaTeeJgfdfluHr3ThH96k {
+ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: xx-large;
+}
+#AaTeeJgfdfluHr3ThH96k p {
+  padding: none;
+  margin: none;
+  text-align: center;
+  text-rendering: geometricPrecision;
+}
+@font-face {
+    font-family: 'sussyfont';
+    src: url("fonts/gotham-medium_TnJjh/Gotham Medium/Gotham Medium.otf"); 
+    src: url("fonts/gotham-medium_TnJjh/Gotham Medium/Gotham Medium.otf") format("opentype");
+    font-style: normal;
+}
+.sussy {
+    font-family: 'sussyfont';
+}
+.lead {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 26px;
+    position: relative;
+    top: -15.54px;
+}
+.btn {
+    position: relative;
+    top: -29.57px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" style="color: #f77f00;">Terrafiles.net</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link"  id="home" href="index.html#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link"  id="link" href="games/index.html">Games</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link"  id="link" href="https://replit.com/@JonnyAppleseed1/Girlfriend-test">Girlfriend Test</a>
+          </li>
+                    <li class="nav-item active">
+            <a class="nav-link"  id="link" href="cub.html">Chubs</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" id="action" href="servers/mainchat.html">Chat</a>
+              <a class="dropdown-item" id="another_action" href="https://discord.com/invite/r7pDYB8U">Discord</a>
+              <a class="dropdown-item" id="another_action" href="https://github.com/swussylittlepuppy/Terrafiles.net">Terrafiles.net Source Code</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div class="top" data-aos="fade-down">
+        <h1 class="sussy">Terrafiles.net</h1>
+        <p class="lead">Very Fast Chat, Fun Games, Discord Chat, Updates Every Week, And More!</p>
+        <a href="games/index.html" class="btn btn-success">Play Games!!!</a>
+        </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id="other">
+      <div id="events" data-aos="fade-down-right">
+         <h1 class="title">Upcoming Events:</h1>
+         <br>
+         <br>
+         <br>
+         <p class="text">No Events Yet... ):</p>
+         <br>
+         <br>
+         <br>
+         <br>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="upcoming-games" data-aos="fade-down-left">
+          <h1 class="title">Upcoming Games:</h1>
+          <br>
+         <br>
+         <br>
+         <p class="text">No Upcoming Games Yet... ):</p>
+         <br>
+         <br>
+         <br>
+         <br>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="popular-games" data-aos="fade-down-right">
+          <h1 class="title">Popular Games:</h1>
+         <br>
+         <br>
+         <ol>
+            <li>Panda Warrior</li>
+            <li>Geometry Dash</li>
+            <li>Geometry Dash Cracked</li>
+            <li>Getaway Shootout</li>
+         </ol>
+         <br>
+         <br>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="update-info" data-aos="fade-down-left">
+          <h1 class="title">Update Info:</h1>
+         <br>
+         <br>
+         <p class="subtitle">Recent Updates:</p>
+         <ol>
+            <li>1.2: Homepage And Responsiveness Update</li>
+            <li>1.1.9: SEO And Brought Back Chat</li>
+         </ol>
+            <p class="subtitle">Upcoming Updates:</p>
+            <ol>
+                <p class="text">No Upcoming Updates Yet... ):</p>
+            </ol>
+         <br>
+         <br>
+      </div>
+      </div>
+      <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br>
+    <br>
+    <br />
+    <br />
+    <hr id="BRAKE">
+    <div id="landing" class="landing">
+        <section id="text1" index="1">
+            <br />
+            <br />
+            <div id="IMG_BACKGROUND" index="1">
+                <br>
+                <br>
+                <h1>
+                    Very fast chatting speeds
+                </h1>
+                <p>
+                    Send messages as fast as 20ms<br>that is super fast!
+                </p>
+                <br>
+                <br>
+                <br>
+        </section>
+        <br>
+        <section id="text2" index="2">
+            <div id="IMG_BACKGROUND2" index="2">
+                <br>
+                <br>
+                <h1>
+                    Secure
+                </h1>
+                <p>
+                    The info you put on this Website.<br>
+                    Is Encrypted with SSL and bots are<br>
+                    removed so i assure your data will<br>not be stolen.
+                </p>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </section>
+        <br>
+        <section id="text3" index="3">
+            <div id="IMG_BACKGROUND3" index="3">
+                <br>
+                <br>
+                <h1>
+                    change themes
+                </h1>
+                <p>
+                    Change the background theme to mutible<br>different colors like black, red, white,<br>and more.
+                </p>
+                <br>
+                <br>
+                <br>
+            </div>
+        </section>
+        <br>
+        <section id="text1" index="4">
+          <div id="IMG_BACKGROUND" index="4">
+              <br>
+              <br>
+              <h1>
+                  Site Optimized
+              </h1>
+              <p>
+                To Optimize Site Preformance<br>We Converted Every jpeg file<br>to WEBP Files and to AVIF Files.
+              </p>
+              <br>
+              <br>
+              <br>
+          </div>
+      </section>
+    </div>
+    <br>
+    <br>
+    <div class="copyright" align="center">
+  <script>
+    document.write('&copy;' );
+    document.write(' 2021 - ');
+    document.write(new Date().getFullYear());
+    document.write(' terrafiles.net - All Rights Reserved.');
+    document.write('<br/>Last Updated : ');
+    </script>
+    <script>
+  document.write(document.lastModified);
+    </script>
+    <center>
+     <a href="hellosasha.html">hello sasha</a>
+    </center>
+</div>
+<canvas id="canvas"></canvas>
+    </main><!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=4d96e6b7"></script>
+    <script src="js/jquery-slim.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+    <script src="https://terrafiles.net/confetti.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+  </body>
+</html>

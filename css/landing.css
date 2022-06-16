@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Quicksand:wght@300&family=Readex+Pro:wght@200&family=Roboto:wght@500&display=swap');
+@keyframes amogus {
+    0% {
+      opacity: 0;
+      transform: rotate(-540deg) scale(0);
+      transform-origin: 100% 50%;
+    }
+  
+    100% {
+      opacity: 1;
+      transform: rotate(0) scale(1);
+      transform-origin: 100% 50%;
+    }
+  }
+#text1 {
+ color: rgb(0, 0, 0);
+ max-zoom: 20;
+ min-zoom: 20;
+ font-variant-ligatures: contextual;
+ position: relative;
+}
+#IMG_BACKGROUND {
+  background: url(../img/bigstock-server-racks-in-server-room-da-150954236.webp);
+  background-clip: content-box;
+  position: relative;
+  border: 2pt solid blue;
+  overflow: hidden;
+  background-repeat: repeat;
+  background-size: 50cm;
+}
+#IMG_BACKGROUND2 {
+  background: url(../img/CYBER-2018.webp);
+  background-clip: content-box;
+  position: relative;
+  border: 2pt solid blue;
+  overflow: hidden;
+  background-repeat: repeat;
+  background-size: 50cm;
+}
+#IMG_BACKGROUND4 {
+  background: url(../img/th.webp);
+  background-clip: content-box;
+  position: relative;
+  border: 2pt solid blue;
+  overflow: hidden;
+  background-repeat: repeat;
+  background-size: 50cm;
+}
+#text4 p {
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 50;
+  font-size: 1.1999em;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  left: 200px;
+  color: rgb(0, 0, 0);
+  animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+  font-optical-sizing: 121;
+}
+#text4 h1 {
+  font-family: 'Poppins', sans-serif;
+    font-size: 28pt;
+    overflow: hidden;
+    position: relative;
+    top: 25px;
+    left: 200px;
+    color: #000000;
+    text-rendering: geometricPrecision;
+    animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+}
+#text1 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28pt;
+    overflow: hidden;
+    position: relative;
+    top: 25px;
+    left: 200px;
+    text-rendering: geometricPrecision;
+    animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+}
+#text1 p {
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 50;
+  font-size: 1.1999em;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  left: 200px;
+  color: rgb(255, 255, 255);
+  animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+  font-optical-sizing: 121;
+}
+#text2 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28pt;
+  position: relative;
+  color: rgb(255, 255, 255);
+  top: 25px;
+  left: 650px;
+  text-rendering: geometricPrecision;
+  animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+}
+#text2 p {
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 50;
+  font-size: 1.1999em;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  left: 650px;
+  color: rgb(255, 255, 255);
+  animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+  font-optical-sizing: 121;
+}
+#IMG_BACKGROUND3 {
+  background: url(https://cdn-images-1.medium.com/max/800/1*Ka8eOXXmgQBb2KZG5tJQ4Q.png);
+  background-clip: content-box;
+  position: relative;
+  border: 2pt solid blue;
+  overflow: hidden;
+  background-repeat: repeat;
+  background-size: 50cm;
+}
+#text3 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28pt;
+  position: relative;
+  color: rgb(0, 0, 0);
+  top: 25px;
+  left: 353px;
+  background: #000000;
+background: -webkit-linear-gradient(to right, #000000 0%, #FFFFFF 50%);
+background: -moz-linear-gradient(to right, #000000 0%, #FFFFFF 50%);
+background: linear-gradient(to right, #000000 0%, #FFFFFF 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  text-rendering: geometricPrecision;
+  animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+  text-transform: capitalize;
+}
+#text3 p {
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 50;
+  font-size: 1.1999em;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  background: #000000;
+background: -webkit-linear-gradient(to right, #000000 0%, #FFFFFF 50%);
+background: -moz-linear-gradient(to right, #000000 0%, #FFFFFF 50%);
+background: linear-gradient(to right, #000000 0%, #FFFFFF 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  left: 353px;
+  color: rgb(0, 0, 0);
+-webkit-text-fill-color: transparent;
+  animation: amogus 1s cubic-bezier(0.11, 0, 0.5, 0) 2s 1 normal forwards;
+  font-optical-sizing: 121;
+}
+#AaTeeJgfdfluHr3ThH96k {
+ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: xx-large;
+}
+#AaTeeJgfdfluHr3ThH96k p {
+  padding: none;
+  margin: none;
+  text-align: center;
+  text-rendering: geometricPrecision;
+}
